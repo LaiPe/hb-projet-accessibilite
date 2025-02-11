@@ -30,15 +30,15 @@
         </ul>
 
         <form>
-            <label for="first-name">Nom</label><br>
-            <input type="text" id="first-name" name="last-name"><br>
-            <label for="last-name">Prenom</label><br>
-            <input type="text" id="last-name" name="last-name"><br>
+            <label for="first-name">Nom*</label><br>
+            <input type="text" id="first-name" name="last-name" required ><br>
+            <label for="last-name">Prenom*</label><br>
+            <input type="text" id="last-name" name="last-name" required ><br>
             <label for="entreprise-name">Nom de l'entreprise</label><br>
             <input type="text" id="entreprise-name" name="entreprise-name"><br>
-            <label for="phone-number">Numéro de téléphone</label><br>
-            <input type="tel" id="phone-number" name="phone-number" pattern="/^(\+33\s[1-9]{8})|(0[1-9]\s{8})$/"><br>
-            <label for="email">Votre email</label><br>
+            <label for="phone-number">Numéro de téléphone*</label><br>
+            <input type="tel" id="phone-number" name="phone-number" pattern="/^(\+33\s[1-9]{8})|(0[1-9]\s{8})$/" required><br>
+            <label for="email">Votre email*</label><br>
             <input type="email" id="email" pattern=".+@example\.com" size="30" required /><br>
             <label for="handicap">Votre handicap</label><br>
             <input type="text" id="handicap" name="handicap"><br>

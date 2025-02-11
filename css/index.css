@@ -54,3 +54,13 @@ main form input {
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
 }
+
+main form button {
+  background-color: var(--couleur-accents-fonce);
+  border: 1px solid var(--couleur-fond-fonce);
+  border-radius: 5px;
+  padding: 0.2rem 0.4rem;
+  font-family: "Hind Madurai", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: var(--couleur-fond-clair);
+}

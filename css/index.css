@@ -21,6 +21,7 @@ main h1 {
   font-family: "Puritan", cursive;
 }
 main ul {
+  font-family: "Hind Madurai", Arial, Helvetica, sans-serif;
   margin-bottom: 2rem;
 }
 main ul li {
@@ -36,11 +37,13 @@ main form {
   border-radius: 10px;
   padding: 1.3rem 0.7rem 0.7rem;
   position: relative;
+  font-family: "Hind Madurai", Arial, Helvetica, sans-serif;
 }
 main form h2 {
   background-color: var(--couleur-fond-clair);
   padding: 0.2rem;
   width: fit-content;
+  display: inline;
   position: absolute;
   top: -1rem;
   left: 0.7rem;

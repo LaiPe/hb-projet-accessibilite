@@ -1,0 +1,12 @@
+header {
+  background-color: var(--couleur-fond-fonce);
+  color: var(--couleur-fond-clair);
+
+  height: var(--height-main);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 2rem;
+}

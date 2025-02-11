@@ -1,0 +1,17 @@
+:root {
+  --couleur-main : #88d620;
+  --couleur-fond-clair : #f1f0ea;
+  --couleur-fond-fonce : #223330;
+  --couleur-accents-clair : #8ba89e;
+  --couleur-accents-fonce : #a86831;
+
+  --height-main : 90px;
+}
+
+.logo {
+  user-select: none;
+  cursor: default;
+
+  font-size: 3rem;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}

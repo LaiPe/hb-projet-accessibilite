@@ -8,6 +8,10 @@
   --height-main : 90px;
 }
 
+body {
+  background-color: var(--couleur-fond-fonce);
+}
+
 .logo {
   user-select: none;
   cursor: default;

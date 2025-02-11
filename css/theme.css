@@ -15,3 +15,9 @@
   font-size: 3rem;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
+
+.material-symbols-outlined {
+  font-size: 1.3em;
+  position: relative;
+  top: 0.2em;
+}
